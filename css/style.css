@@ -468,6 +468,13 @@ footer span {
 }
 
 @media all and (max-width: 480px) {
+    .section-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
     .section-top img {
         width: 330px;
         height: 200px;
